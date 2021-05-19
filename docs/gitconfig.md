@@ -17,13 +17,13 @@ With above command a new section will be created in .gitconfig file
 
 ## Case Study 1 -For Global Configuration
 
-Ritika is a software developer and she works on  a project ( lets say MyWork) her laptop and manage her project's repistory on local system using git.She want to configure set up Author of the project with her name and email address so that when she commits the changes to the local repoistory then it records with her name and later she can push these changes to global repoistory.
+Ritika is a software developer and she works on  a project ( lets say MyProj) her laptop and manage her project's repistory  using git.She wants to  set up Author of the project with her name and email address so that when she commits the changes to the local repoistory then it records with her name and later she can push these changes to global repoistory.
 
 ### Solution
 
 #### Step 1 To Initialize git repository for MyProj project (Consider MyProj is a directory and all the files in this directory are project files).
             
-           cd MyProject
+           cd MyProj
            git init
 
 
