@@ -12,7 +12,7 @@
 ### Local Version Control System
 
 It is a version  control system which keeps track of  all the changes to files under local computer . Example RCS
-![image \| height=48px](https://user-images.githubusercontent.com/84008107/118846995-e47a2400-b8ea-11eb-8f1a-fea8e55bdb11.png)
+![image](https://user-images.githubusercontent.com/84008107/118846995-e47a2400-b8ea-11eb-8f1a-fea8e55bdb11.png = 100x100)
 
 
 
