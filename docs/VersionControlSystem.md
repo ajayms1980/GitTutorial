@@ -13,8 +13,8 @@
 
 It is a version  control system which keeps track of  all the changes to files under local computer . Example RCS
 <br />
-<img src="https://github.com/kmitsolution/GitTutorial/blob/gh-pages/Images/LocalVCS.PNG" width="400" height="400" /> <br />
-![image](https://user-images.githubusercontent.com/84008107/118846995-e47a2400-b8ea-11eb-8f1a-fea8e55bdb11.png)
+<img src="https://github.com/kmitsolution/GitTutorial/blob/gh-pages/Images/LocalVCS.PNG" width="500" height="200" /> <br />
+
 
 
 
