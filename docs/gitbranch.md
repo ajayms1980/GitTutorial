@@ -36,11 +36,12 @@ Git Merge command is used to integrate the changes of different branches into a 
 
 ### Example
 
-In below diagram there are 3 branches(master,Feature1 and Feature2) , after creation Feature1 branch has 2 commits(green color circles) and Feature2 branch also has 2 commits( blue color circles) and these changes are getting merge into master branch at merge commit, now master branch includes the commits of feature1 and feature2 branch ( you can check it with git log command)
+In below diagram there are 3 branches(master,Feature1 and Feature2) , after creation Feature1 branch, it has 2 commits(green color circles) and Feature2 branch also has 2 commits( blue color circles) and these changes are getting merge into master branch at merge commit, now master branch includes the commits of feature1 and feature2 branch ( you can check it with git log command)
 
 <img src="https://github.com/kmitsolution/GitTutorial/blob/gh-pages/Images/merge.PNG" width="500" height="200" /> <br />
 
 ### command 
-  git merge <<branch name>>
-  git merge dev
+
+  - git merge <<branch name>>
+  - git merge dev
  
