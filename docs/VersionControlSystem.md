@@ -13,11 +13,13 @@
 
 It is a version  control system which keeps track of  all the changes to files under local computer . Example RCS
 <br />
+
 <img src="https://github.com/kmitsolution/GitTutorial/blob/gh-pages/Images/LocalVCS.PNG" width="500" height="200" /> <br />
 
 ### Centralized     Version    Control    System   (CVCS)
 It is the centralized repository that contains all versioned files. Example Perforce, Subversion, CVS
 <br />
+
 <img src="https://github.com/kmitsolution/GitTutorial/blob/gh-pages/Images/CVCS.PNG" width="500" height="200" /> <br />
 
 ### Distributed    Version    Control    System   (DVCS)
