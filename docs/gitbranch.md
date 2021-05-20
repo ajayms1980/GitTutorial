@@ -42,6 +42,6 @@ In below diagram there are 3 branches(master,Feature1 and Feature2) , after crea
 
 ### command 
 
-  - git merge <<branch name>>
-  - git merge dev
+    git merge <branch_name>
+    git merge dev
  
