@@ -62,4 +62,19 @@ This command is used to reset the git commits. for example if we have 2 commits 
  
      git revert <<commit id>>
 
-
+#### git stash
+Stashing takes the dirty state of your working directory — that is, your modified tracked files and staged changes — and saves it on a stack of unfinished changes that you can reapply at any time (even on a different branch)
+  
+     # modify the file (Not commited)
+          git stash save "some message"
+     #list all the stash changes
+         git stash list
+     #revert the change in git repo
+         git stash apply  stash@{0}
+     # revert and remove it from git list
+         git stash pop
+     #drop the stash changes 
+          git stash drop  stash@{0}
+     #drop all stash changes
+          git stash clear
+     
