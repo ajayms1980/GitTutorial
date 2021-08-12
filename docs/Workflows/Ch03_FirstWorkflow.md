@@ -13,14 +13,15 @@
   <li> Go back to your local system and Create a Folder Called MyProject <b>( You can use any name but in further steps I will use name MyProject)</b></li>
   <li> Navigate to your Folder MyProject and initialize git repo usint <i>git init</i> command ( it totally depends upon you how you initalize local Repository using Terminal or command prompt or visual studio code or git bash) </li>
   <li> Create folder .github/workflows <b>(It should be same name)</b> under MyProject folder ( means under MyProject first you need to create .github folder and then under .github folder you need to create workflows folder).</li>
-  <li> Crate a Yaml file action.yaml <b>( You can use any name but the extension should be either .yaml or .yml)</b> with following code. <br /> </li>
+  <li> Crate a Yaml file action.yaml <b>( You can use any name but the extension should be either .yaml or .yml)</b> with following code. The code which is started with # is the commented code. <br /> </li>
     
     
     name: First Workflow
-
+    # Event is Push it means whenever there is push to this repo then the jobs will be executed
     on: [push]
     jobs:
-      test:
+    # Creating the job "job1" which is funter consisted of OS and Steps
+      job1:
         runs-on: ubuntu-latest
         steps:
          - name: simple echo command
